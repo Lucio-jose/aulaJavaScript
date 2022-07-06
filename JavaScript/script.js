@@ -40,13 +40,13 @@ let frutas = [{nome:"Banana", cor:"Amarela"},{nome:"Maçã", cor:"Verde"}]
 console.log(frutas)
 
 //Condicionais
-
+/*
 let idade=prompt("Qual é a sua idade")
 if(idade>=18){
     console.log("Maior de idade")
 }else{
     console.log("Menor de idade")
-}
+}*/
 
 //REPETIÇÃO
 numero =0;
@@ -87,9 +87,9 @@ if(idade>=18){
 }
 }
 
-var idadee = prompt("Digite a sua idade")
+/*var idadee = prompt("Digite a sua idade")
 validarIdade(idadee)
-console.log(Validar)
+console.log(Validar)*/
 
 //
 
@@ -97,15 +97,36 @@ function btn(){
     let n1= document.querySelector("#number1")
 let n2= document.querySelector("#number2")
 let setic = document.querySelector("section")
-    setic.innerHTML= `<b>Resultado:</b> ${Number(n1.value)+ Number(n2.value)} <br/> Acesse o meu Github`
+    setic.innerHTML= `<b>Resultado da soma:</b> ${Number(n1.value)+ Number(n2.value)} <br/>`
 }
-
-function redirecionar(){
+function subtracao(){
+    let n1= document.querySelector("#number1")
+let n2= document.querySelector("#number2")
+let setic = document.querySelector("section")
+    setic.innerHTML= `<b>Resultado Da Subtração:</b> ${Number(n1.value)- Number(n2.value)} <br/>`
+}
+function multiplicacao(){
+    let n1= document.querySelector("#number1")
+let n2= document.querySelector("#number2")
+let setic = document.querySelector("section")
+    setic.innerHTML= `<b>Resultado da multiplicação:</b> ${Number(n1.value)* Number(n2.value)} <br/>`
+}
+function divisao(){
+    let n1= document.querySelector("#number1")
+let n2= document.querySelector("#number2")
+let setic = document.querySelector("section")
+    setic.innerHTML= `<b>Resultado da divisão:</b> ${Number(n1.value)/ Number(n2.value)} <br/>`
+}
+function github(){
+    window.open("https://github.com/Lucio-jose/") // Abre outro ABA
+   // window.location.href="https://github.com/Lucio-jose/"   ACESSAR NO MESMO ABA
+}
+function likedin(){
     window.open("https://github.com/Lucio-jose/") // Abre outro ABA
    // window.location.href="https://github.com/Lucio-jose/"   ACESSAR NO MESMO ABA
 }
 
 //Enventos com funcçoes
 function mousemove(){
-    alert("Gostei de ti")
+    alert("Seja bem-vindo/a")
 }
