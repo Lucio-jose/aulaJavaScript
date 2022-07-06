@@ -121,11 +121,14 @@ function github(){
     window.open("https://github.com/Lucio-jose/") // Abre outro ABA
    // window.location.href="https://github.com/Lucio-jose/"   ACESSAR NO MESMO ABA
 }
-function likedin(){
-    window.open("https://github.com/Lucio-jose/") // Abre outro ABA
+function linkedin(){
+    window.open("https://www.linkedin.com/in/lucio-jose-7c2002c7") // Abre outro ABA
    // window.location.href="https://github.com/Lucio-jose/"   ACESSAR NO MESMO ABA
 }
-
+function instagram(){
+    window.open("https://www.instagram.com/lucio_jose7") // Abre outro ABA
+   // window.location.href="https://github.com/Lucio-jose/"   ACESSAR NO MESMO ABA
+}
 //Enventos com funcçoes
 function mousemove(){
     alert("Seja bem-vindo/a")
