@@ -53,6 +53,9 @@
     display: flex;
     justify-content: space-around;
 }
+#redes-sociais span:hover{
+    cursor: pointer;
+}
 #right{
     width: 30vw;
     height: 40vh;
